@@ -1,0 +1,50 @@
+<html>
+<head>
+    <title>Offensive Identification</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        body{
+            background-color: rgba(8, 8, 8, 0.89);
+            text-align: center;
+            color:aqua;
+        }
+        form{
+            margin-top: 10%;
+        }
+        .inputs{
+            margin: auto;
+            width:80%;
+            border-radius: 10px;
+            background-color:aqua;
+            font-size: larger;
+            font-weight: bolder;
+        }
+        .inputs:hover{
+            background-color:aqua;
+            font-size: larger;
+            font-weight: bolder;
+        }
+        input{
+            background-color: aqua;
+            height:40px;
+            cursor: pointer;
+            border-radius: 15px;
+        }
+        a{
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <form action="/resultText" method="POST">
+        <h1> Welcome to Offensive Language Identification </h1><br/><br/>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Enter sentence/s to check:</label>
+            <textarea class="form-control inputs" id="exampleFormControlTextarea1" rows="4" name="userInput"  placeholder="Enter text here" required></textarea>
+            <input type="submit" value="CHECK" />
+            <a href="/fileInput" >Have a file to check instead?</a>
+        </div>
+    </form>
+</body>
+</html>

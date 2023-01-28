@@ -1,0 +1,39 @@
+<html>
+<head>
+    <title>Offensive Identification</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        body{
+            background-color: rgba(8, 8, 8, 0.89);
+            text-align: center;
+            color:aqua;
+        }
+        form{
+            margin-top: 10%;
+        }
+        
+        .last{
+            background-color: aqua;
+            height:40px;
+            cursor: pointer;
+            border-radius: 15px;
+            
+        }
+        a{
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <form action="/resultFile" method="POST" enctype="multipart/form-data">
+        <h1> Welcome to Offensive Language Identification </h1><br/><br/>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Upload file(.docx) to check:</label>
+            <input type="file" name="doc" required /><br><br>
+            <input type="submit" class="last" value="CHECK" />
+            <a href="/textInput">Have a text to check instead?</a>
+        </div>
+    </form>
+</body>
+</html>
