@@ -20,4 +20,4 @@
 <img src="https://user-images.githubusercontent.com/60683850/215239595-702e016e-d833-4c3d-8c73-ee2a890dd491.png" width="850" height="400"><img src="https://user-images.githubusercontent.com/60683850/215239601-f002acf5-4aee-4286-be06-df582d152ddf.png" width="850" height="400">
 
 
-## 📜 To learn more about the project, you can read **[this.](https://www.irjet.net/archives/V8/i11/IRJET-V8I11251.pdf)☜**
+## 📜 To learn more about the project, you can read **[this.](https://drive.google.com/file/d/1icUxgTVYeohZEFQM1T18DRCsGe5aTamj/view?usp=sharing)☜**
